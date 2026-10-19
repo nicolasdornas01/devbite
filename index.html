@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBite | Cardápio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a href="index.html" class="logo">DevBite</a>
+    <nav class="menu">
+      <a href="index.html" class="menu-link ativo" aria-current="page">Cardápio</a>
+      <a href="checkout.html" class="menu-link">Carrinho</a>
+      <a href="admin.html" class="menu-link">Admin</a>
+    </nav>
+  </header>
+
+  <main class="pagina-cardapio">
+    <aside class="categorias">
+      <h2 class="titulo-aside">Categorias</h2>
+      <ul class="lista-categorias">
+        <li><a href="#lanches">Lanches</a></li>
+        <li><a href="#bebidas">Bebidas</a></li>
+        <li><a href="#sobremesas">Sobremesas</a></li>
+      </ul>
+    </aside>
+
+    <div class="cardapio">
+      <section id="lanches" class="categoria">
+        <h2 class="titulo-secao">Lanches</h2>
+        <div class="grade-produtos">
+          <article class="card-produto">
+            <img src="img/x-tudo.svg" alt="X-Tudo da Casa" class="card-imagem">
+            <h3 class="card-nome">X-Tudo da Casa</h3>
+            <p class="card-descricao">Hambúrguer artesanal, ovo, bacon, presunto, queijo, milho e batata palha.</p>
+            <p class="card-preco">R$ 28,90</p>
+            <button type="button" class="botao" id="btn-add-1" data-id="1">Adicionar</button>
+          </article>
+
+          <article class="card-produto">
+            <img src="img/x-salada.svg" alt="X-Salada" class="card-imagem">
+            <h3 class="card-nome">X-Salada</h3>
+            <p class="card-descricao">Pão de sal na chapa, hambúrguer, queijo, alface, tomate e maionese da casa.</p>
+            <p class="card-preco">R$ 21,00</p>
+            <button type="button" class="botao" id="btn-add-2" data-id="2">Adicionar</button>
+          </article>
+
+          <article class="card-produto">
+            <img src="img/pao-de-queijo.svg" alt="Pão de queijo recheado" class="card-imagem">
+            <h3 class="card-nome">Pão de queijo recheado</h3>
+            <p class="card-descricao">Pão de queijo grande recheado com pernil desfiado e requeijão.</p>
+            <p class="card-preco">R$ 12,50</p>
+            <button type="button" class="botao" id="btn-add-3" data-id="3">Adicionar</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="bebidas" class="categoria">
+        <h2 class="titulo-secao">Bebidas</h2>
+        <div class="grade-produtos">
+          <article class="card-produto">
+            <img src="img/suco-laranja.svg" alt="Suco de laranja 500ml" class="card-imagem">
+            <h3 class="card-nome">Suco de laranja 500ml</h3>
+            <p class="card-descricao">Espremido na hora, sem açúcar. Pode pedir com gelo.</p>
+            <p class="card-preco">R$ 9,00</p>
+            <button type="button" class="botao" id="btn-add-4" data-id="4">Adicionar</button>
+          </article>
+
+          <article class="card-produto">
+            <img src="img/guarana.svg" alt="Guaraná lata" class="card-imagem">
+            <h3 class="card-nome">Guaraná lata 350ml</h3>
+            <p class="card-descricao">Bem gelado.</p>
+            <p class="card-preco">R$ 6,00</p>
+            <button type="button" class="botao" id="btn-add-5" data-id="5">Adicionar</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="sobremesas" class="categoria">
+        <h2 class="titulo-secao">Sobremesas</h2>
+        <div class="grade-produtos">
+          <article class="card-produto">
+            <img src="img/pudim.svg" alt="Pudim de leite" class="card-imagem">
+            <h3 class="card-nome">Pudim de leite (fatia)</h3>
+            <p class="card-descricao">Receita de vó, com bastante calda de caramelo.</p>
+            <p class="card-preco">R$ 8,50</p>
+            <button type="button" class="botao" id="btn-add-6" data-id="6">Adicionar</button>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 DevBite Lanchonete. Belo Horizonte - MG.</p>
+  </footer>
+</body>
+</html>
