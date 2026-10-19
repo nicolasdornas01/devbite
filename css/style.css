@@ -380,3 +380,52 @@ main {
   display: flex;
   gap: 12px;
 }
+
+/* responsivo */
+@media (max-width: 900px) {
+  .grade-produtos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pagina-checkout,
+  .pagina-admin {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .topo {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .menu-link {
+    padding: 6px 12px;
+  }
+
+  main {
+    padding: 20px 16px;
+  }
+
+  .pagina-cardapio {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lista-categorias {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .grade-produtos {
+    grid-template-columns: 1fr;
+  }
+
+  .caixa {
+    padding: 16px;
+  }
+
+  .titulo-secao {
+    font-size: 1.6rem;
+  }
+}
