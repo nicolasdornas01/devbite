@@ -278,3 +278,65 @@ main {
 .link-voltar {
   font-weight: 700;
 }
+
+/* formulários */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 2px solid var(--marrom);
+  border-radius: 8px;
+}
+
+.grupo legend {
+  padding: 0 8px;
+  font-family: "Lilita One", "Arial Black", sans-serif;
+  font-size: 1.1rem;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-weight: 700;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  padding: 10px;
+  border: 2px solid var(--marrom);
+  border-radius: 6px;
+  background-color: #fff;
+  color: var(--marrom);
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  outline: 3px solid var(--mostarda);
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.opcao input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--ketchup);
+}

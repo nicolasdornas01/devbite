@@ -64,6 +64,61 @@
       </table>
       <a href="index.html" class="link-voltar">&larr; Continuar comprando</a>
     </section>
+
+    <section class="caixa">
+      <h2 class="titulo-secao">Entrega e pagamento</h2>
+      <form class="formulario" id="form-checkout" action="#">
+        <fieldset class="grupo">
+          <legend>Dados de entrega</legend>
+
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+
+          <div class="campo">
+            <label for="telefone">Telefone (WhatsApp)</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(31) 99999-9999" required>
+          </div>
+
+          <div class="campo">
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Rua, número e complemento" required>
+          </div>
+
+          <div class="campo">
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro" name="bairro" required>
+          </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+          <legend>Forma de pagamento</legend>
+
+          <div class="opcao">
+            <input type="radio" id="pagamento-pix" name="pagamento" value="pix" checked>
+            <label for="pagamento-pix">Pix</label>
+          </div>
+
+          <div class="opcao">
+            <input type="radio" id="pagamento-cartao" name="pagamento" value="cartao">
+            <label for="pagamento-cartao">Cartão na entrega</label>
+          </div>
+
+          <div class="opcao">
+            <input type="radio" id="pagamento-dinheiro" name="pagamento" value="dinheiro">
+            <label for="pagamento-dinheiro">Dinheiro</label>
+          </div>
+        </fieldset>
+
+        <div class="campo">
+          <label for="observacao">Observação</label>
+          <textarea id="observacao" name="observacao" rows="3" placeholder="Ex.: sem cebola, troco pra R$ 100"></textarea>
+        </div>
+
+        <button type="submit" class="botao" id="btn-finalizar">Finalizar pedido</button>
+      </form>
+    </section>
   </main>
 
   <footer class="rodape">
