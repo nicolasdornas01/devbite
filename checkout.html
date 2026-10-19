@@ -33,22 +33,37 @@
         </thead>
         <tbody>
           <tr>
-            <td>X-Tudo da Casa</td>
+            <td>
+              <div class="item-pedido">
+                <img src="img/x-tudo.jpg" alt="X-Tudo da Casa" class="item-imagem">
+                X-Tudo da Casa
+              </div>
+            </td>
             <td>2</td>
             <td>R$ 28,90</td>
             <td>R$ 57,80</td>
           </tr>
           <tr>
-            <td>Suco de laranja 500ml</td>
+            <td>
+              <div class="item-pedido">
+                <img src="img/suco-laranja.jpg" alt="Suco de laranja 500ml" class="item-imagem">
+                Suco de laranja 500ml
+              </div>
+            </td>
             <td>1</td>
             <td>R$ 9,00</td>
             <td>R$ 9,00</td>
           </tr>
           <tr>
-            <td>Pudim de leite (fatia)</td>
+            <td>
+              <div class="item-pedido">
+                <img src="img/milk-shake.jpg" alt="Milk-shake 400ml" class="item-imagem">
+                Milk-shake 400ml
+              </div>
+            </td>
             <td>1</td>
-            <td>R$ 8,50</td>
-            <td>R$ 8,50</td>
+            <td>R$ 16,00</td>
+            <td>R$ 16,00</td>
           </tr>
         </tbody>
         <tfoot>
@@ -58,7 +73,7 @@
           </tr>
           <tr class="linha-total">
             <td colspan="3">Total</td>
-            <td>R$ 80,30</td>
+            <td>R$ 87,80</td>
           </tr>
         </tfoot>
       </table>
@@ -67,7 +82,7 @@
 
     <section class="caixa">
       <h2 class="titulo-secao">Entrega e pagamento</h2>
-      <form class="formulario" id="form-checkout" action="#">
+      <form class="formulario" id="form-checkout">
         <fieldset class="grupo">
           <legend>Dados de entrega</legend>
 
@@ -116,7 +131,7 @@
           <textarea id="observacao" name="observacao" rows="3" placeholder="Ex.: sem cebola, troco pra R$ 100"></textarea>
         </div>
 
-        <button type="submit" class="botao" id="btn-finalizar">Finalizar pedido</button>
+        <button type="button" class="botao" id="btn-finalizar">Finalizar pedido</button>
       </form>
     </section>
   </main>

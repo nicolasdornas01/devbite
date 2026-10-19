@@ -275,6 +275,20 @@ main {
   gap: 16px;
 }
 
+.item-pedido {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-imagem {
+  width: 64px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 2px solid var(--marrom);
+  border-radius: 6px;
+}
+
 .link-voltar {
   font-weight: 700;
 }
