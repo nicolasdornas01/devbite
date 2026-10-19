@@ -226,3 +226,55 @@ main {
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+/* caixa (bloco com borda) */
+.caixa {
+  padding: 24px;
+  background-color: var(--branco);
+  border: 3px solid var(--marrom);
+  border-radius: 8px;
+  box-shadow: 5px 5px 0 var(--marrom);
+}
+
+/* tabelas */
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  padding: 10px 8px;
+  border-bottom: 2px dashed #d8c7a8;
+  text-align: left;
+}
+
+.tabela th {
+  background-color: var(--mostarda);
+  border-bottom: 2px solid var(--marrom);
+}
+
+.linha-total td {
+  border-bottom: none;
+  color: var(--ketchup);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* checkout */
+.pagina-checkout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.carrinho {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-voltar {
+  font-weight: 700;
+}

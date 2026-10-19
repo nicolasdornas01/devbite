@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBite | Carrinho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a href="index.html" class="logo">DevBite</a>
+    <nav class="menu">
+      <a href="index.html" class="menu-link">Cardápio</a>
+      <a href="checkout.html" class="menu-link ativo" aria-current="page">Carrinho</a>
+      <a href="admin.html" class="menu-link">Admin</a>
+    </nav>
+  </header>
+
+  <main class="pagina-checkout">
+    <section class="caixa carrinho">
+      <h1 class="titulo-secao">Seu pedido</h1>
+      <table class="tabela" id="tabela-carrinho">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Qtd.</th>
+            <th>Preço</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>X-Tudo da Casa</td>
+            <td>2</td>
+            <td>R$ 28,90</td>
+            <td>R$ 57,80</td>
+          </tr>
+          <tr>
+            <td>Suco de laranja 500ml</td>
+            <td>1</td>
+            <td>R$ 9,00</td>
+            <td>R$ 9,00</td>
+          </tr>
+          <tr>
+            <td>Pudim de leite (fatia)</td>
+            <td>1</td>
+            <td>R$ 8,50</td>
+            <td>R$ 8,50</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Taxa de entrega</td>
+            <td>R$ 5,00</td>
+          </tr>
+          <tr class="linha-total">
+            <td colspan="3">Total</td>
+            <td>R$ 80,30</td>
+          </tr>
+        </tfoot>
+      </table>
+      <a href="index.html" class="link-voltar">&larr; Continuar comprando</a>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2026 DevBite Lanchonete. Belo Horizonte - MG.</p>
+  </footer>
+</body>
+</html>
