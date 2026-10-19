@@ -340,3 +340,43 @@ main {
   height: 18px;
   accent-color: var(--ketchup);
 }
+
+/* admin */
+.pagina-admin {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.tabela-rolagem {
+  overflow-x: auto;
+}
+
+.status {
+  display: inline-block;
+  padding: 2px 10px;
+  border: 2px solid var(--marrom);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-preparo {
+  background-color: var(--mostarda);
+}
+
+.status-entrega {
+  background-color: var(--ketchup);
+  color: var(--creme);
+}
+
+.status-entregue {
+  background-color: #cfe3b0;
+}
+
+.acoes {
+  display: flex;
+  gap: 12px;
+}
